@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\admin\Desktop\MavenProjectWorkspacePractice\TestProjectTwo"/>
+			<item value="C:\Users\admin\Desktop\MavenProjectWorkspacePractice\TestProjectThree"/>
+			<item value="C:\Users\admin\Desktop\MavenProjectWorkspacePractice\TestProjectTen"/>
+			<item value="C:\Users\admin\Desktop\MavenProjectWorkspacePractice\TestProjectSix"/>
+			<item value="C:\Users\admin\Desktop\MavenProjectWorkspacePractice\TestProjectSeven"/>
+			<item value="C:\Users\admin\Desktop\MavenProjectWorkspacePractice\TestProjectNine"/>
+			<item value="C:\Users\admin\Desktop\MavenProjectWorkspacePractice\TestProjectFour"/>
+			<item value="C:\Users\admin\Desktop\MavenProjectWorkspacePractice\TestProjectFive"/>
+			<item value="C:\Users\admin\Desktop\MavenProjectWorkspacePractice\TestProjectEight"/>
+			<item value="C:\Users\admin\Desktop\MavenProjectWorkspacePractice\TestProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

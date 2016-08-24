@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<parent>
+		<artifactId>TestProjectSeven</artifactId>
+		<groupId>com.ourTestProjectSeven</groupId>
+		<version>1.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>TestProjectSeven-ejb</artifactId>
+	<version>1.0</version>
+
+	<packaging>ejb</packaging>
+	<name>TestProjectSeven - EJB</name>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.ourTestProjectSeven</groupId>
+			<artifactId>TestProjectSeven-datamodel</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jboss.seam</groupId>
+			<artifactId>jboss-seam</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jboss.spec.javax.ejb</groupId>
+			<artifactId>jboss-ejb-api_3.1_spec</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate.javax.persistence</groupId>
+			<artifactId>hibernate-jpa-2.0-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- test scope dependencies -->
+		<dependency>
+			<groupId>com.ourTestProjectSeven</groupId>
+			<artifactId>TestProjectSeven-datamodel</artifactId>
+			<type>test-jar</type>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
